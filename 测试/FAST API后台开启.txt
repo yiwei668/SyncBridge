@@ -1,0 +1,5 @@
+cd "C:\Users\COLORFUL\Documents\Codex\2026-09-16\new-chat\backend"
+
+$env:PYTHONPATH = (Get-Location)
+
+uvicorn app.main:app --host 0.0.0.0 --port 8000
